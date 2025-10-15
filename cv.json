@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Charlène Billat",
+    "label": "Développeuse fullstack",
+    "image": "",
+    "email": "trentycharlene@gmail.com",
+    "phone": "06 44 71 32 43",
+    "url": "https://charlenebillat.com",
+    "summary": "Mon CV en ligne ...",
+    "location": {
+      "address": "Mérignac",
+      "postalCode": "33700"
+    }
+  },
+  "work": [
+    {
+      "name": "Archenergie",
+      "position": "Développeuse fullstack",
+      "url": "archenergie.fr",
+      "startDate": "1er septembre 2025",
+      "summary": "Maintenance et doc du logiciel interne de planification des chantiers de travaux."
+    },
+
+    {
+      "name": "Namma",
+      "position": "Chargée de projet digital",
+      "url": "namma-france.fr",
+      "startDate": "1er septembre 2021",
+      "endDate": "26 avril 2025",
+      "summary": "Chargée de la gestion de l'équipe digitale : marketing, développeur, UX/UI."
+    },
+
+    {
+      "name": "SNCF",
+      "position": "Assistante de projet digital",
+      "startDate": "1er septembre 2018",
+      "endDate": "15 août 2021",
+      "summary": "Aide à la mise en place des projets digitaux : réalisation des visuels numériques, organisation des logiciels."
+    }
+  ],
+
+  "volunteer": [
+    {
+      "organization": "Idéale DS Aquitaine",
+      "position": "Photographe et Graphiste",
+      "startDate": "2020-03-01",
+      "summary": "Réalisation de prints et prise de vue des voitures"
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
