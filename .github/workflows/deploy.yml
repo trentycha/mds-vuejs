@@ -42,6 +42,14 @@ jobs:
       - name: Installation des dépendances
         run: npm ci
 
+      # Etape3.1 : Linter le code et bloquer la pipeline si le lint échoue
+      - name: Vérification du lint
+        run: npm run lint:check
+
+      # Etape3.2 : Vérifier le formattage du code et bloquer la pipeline si le formattage est incorrect
+      - name: Vérification formattage
+        run: nom run format:check
+
       # Etape4 : construire l'application pour la production
       - name: Construction de l'application
         run: npm run build
@@ -56,7 +64,7 @@ jobs:
         with:
           path: "./dist"
 
-# Et le déployer sur GitHub Pages
+  # Et le déployer sur GitHub Pages
   deploy:
     name: Déploiement
     # Ce job attend que le build soit terminé
@@ -67,7 +75,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    # Déployer sur GitHub Pages
+      # Déployer sur GitHub Pages
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
