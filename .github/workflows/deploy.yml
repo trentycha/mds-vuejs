@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 # Permissions nécessaires pour déployer sur Github Pages
-permission:
+permissions:
   contents: read
   pages: write
   id-token: write
