@@ -1,49 +1,53 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Charlène Billat",
+    "label": "Développeuse fullstack",
     "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "trentycharlene@gmail.com",
+    "phone": "06 44 71 32 43",
+    "url": "https://charlenebillat.com",
+    "summary": "Mon CV en ligne ...",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }
-    ]
+      "address": "Mérignac",
+      "postalCode": "33700"
+    }
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": ["Started the company"]
+      "name": "Archenergie",
+      "position": "Développeuse fullstack",
+      "url": "archenergie.fr",
+      "startDate": "1er septembre 2025",
+      "summary": "Maintenance et doc du logiciel interne de planification des chantiers de travaux."
+    },
+
+    {
+      "name": "Namma",
+      "position": "Chargée de projet digital",
+      "url": "namma-france.fr",
+      "startDate": "1er septembre 2021",
+      "endDate": "26 avril 2025",
+      "summary": "Chargée de la gestion de l'équipe digitale : marketing, développeur, UX/UI."
+    },
+
+    {
+      "name": "SNCF",
+      "position": "Assistante de projet digital",
+      "startDate": "1er septembre 2018",
+      "endDate": "15 août 2021",
+      "summary": "Aide à la mise en place des projets digitaux : réalisation des visuels numériques, organisation des logiciels."
     }
   ],
+
   "volunteer": [
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "organization": "Idéale DS Aquitaine",
+      "position": "Photographe et Graphiste",
+      "startDate": "2020-03-01",
+      "summary": "Réalisation de prints et prise de vue des voitures"
     }
   ],
+
   "education": [
     {
       "institution": "University",
@@ -98,12 +102,6 @@
     {
       "name": "Wildlife",
       "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }
   ],
   "projects": [

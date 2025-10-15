@@ -1,4 +1,4 @@
 <template>
-  <h1>Home View</h1>
-  <p>Welcome to the home page!</p>
+  <h1>A propos</h1>
+  <p>Vous voulez en savoir plus sur moi ?</p>
 </template>
