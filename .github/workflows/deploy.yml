@@ -48,7 +48,7 @@ jobs:
 
       # Etape3.2 : Vérifier le formattage du code et bloquer la pipeline si le formattage est incorrect
       - name: Vérification formattage
-        run: nom run format:check
+        run: npm run format:check
 
       # Etape4 : construire l'application pour la production
       - name: Construction de l'application
