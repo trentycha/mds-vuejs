@@ -32,7 +32,7 @@ jobs:
 
       # Etape2: installer node.js
       - name: Installation de Node.js
-        uses: actions/setup-node@4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "npm"
