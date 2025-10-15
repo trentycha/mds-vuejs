@@ -3,11 +3,11 @@ name: Déploiement GitHub Pages
 
 # On déclare une clé qui indique quand est-ce qu'on veut qu'il se déclence
 on:
-# A chaque fois que :
-push:
-  branches: [master]
+  # A chaque fois que :
+  push:
+    branches: [master]
   # On peut aussi le lancer manuellement avec :
-workflow_dispatch:
+  workflow_dispatch:
 
 # Permissions nécessaires pour déployer sur Github Pages
 permission:
